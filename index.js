@@ -1,5 +1,3 @@
-const express = require('express');
-const http = require('http');
 const request = require('request');
 const merge = require('merge');
 
