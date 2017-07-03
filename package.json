@@ -13,11 +13,7 @@
   },
   "author": "Andrej Ristevski",
   "license": "ISC",
-  "devDependencies": {
-    "request": "^2.81.0",
-    "rss-parser": "^2.7.0"
-  },
   "dependencies": {
-    "merge": "^1.2.0"
+    "request": "^2.81.0"
   }
 }

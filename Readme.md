@@ -4,6 +4,7 @@ array-scraper is a module that let us download array of urls in sequential manne
 
 ### Example Usage
 
+```
 let arrayScrapper = require('array-scraper');
 let options = {
     timeout: 50, //timeout between http calls 
@@ -13,3 +14,5 @@ let options = {
 arrayScrapper(urls, function (successBodies, errors) {
 
 } , ? options);
+
+```
