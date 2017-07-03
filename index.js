@@ -1,5 +1,4 @@
 const request = require('request');
-const merge = require('merge');
 
 let res = [];
 let errors = [];
@@ -48,7 +47,7 @@ function* iter(urls, callback, next) {
 }
 
 const downloadUrls = function (urls, callback, options) {
-    merge(config, options);
+    Object.assign(config, options);
     let gen = iter(urls, callback, function () {
         gen.next();
     });

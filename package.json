@@ -1,23 +1,19 @@
 {
   "name": "array-scraper",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/andrejristevski/array-scraper.git"
   },
   "author": "Andrej Ristevski",
   "license": "ISC",
-  "devDependencies": {
-    "rss-parser": "^2.7.0"
-  },
   "dependencies": {
-    "merge": "^1.2.0",
     "request": "^2.81.0"
   }
 }
